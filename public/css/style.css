@@ -1,0 +1,22 @@
+.div1{
+color: red;
+font-size: 50px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.div2{
+    border: 2px solid green;
+    width: 200px;
+    text-align: center;
+    color: blue;
+}
+.div3{
+    border: 2px solid darkorchid;
+    width: 200px;
+    text-align: center;
+    color: rosybrown;
+    margin-top: 2px;
+    
+}
