@@ -15,7 +15,7 @@ class RegistrationController extends Controller
     {
         $request->validate(
             [
-                'name' => 'required',
+                'name' => 'required|alpha',
                 'email' => 'required|email',
                 'password' => 'required',
                 'cnfpassword' => 'required|same:password'
