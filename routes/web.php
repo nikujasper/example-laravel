@@ -26,3 +26,8 @@ Route::get('/customer', function () {
     echo "<pre>";
     print_r($customers->toarray());
 });
+Route::get('/customer', function () {
+    $customers = Customer::all();
+    echo "<pre>";
+    print_r($customers->toarray());
+});
